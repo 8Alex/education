@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Intro";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Intro"), url("/assets/fonts/intro_regular.ttf");
+}
+
+.navigation {
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+.navigation__button {
+    background-color: #5222D0;
+    color: white;
+    font-family: "Intro", sans-serif;
+    font-size: 0.8125em;
+    font-weight: 400;
+    border: 1px solid #5222D0;
+    border-radius: 20px;
+}
+
+.navigation__button_basket {
+    margin-left: 10px;
+    vertical-align: baseline;
+}
+
+
+.block {
+    background-color: white;
+    margin-top: 50px;
+}
+
+.block__heading {
+    font-family: "Intro", sans-serif;
+    color: black;
+    font-size: 3.75em;
+    font-weight: 400;
+}
+
+.block__text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+.block__button {
+    background-color: #5222D0;
+    color: white;
+    font-family: "Intro", sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    border: 1px solid #5222D0;
+    border-radius: 50px;
+}
+
+.block__button_card {
+    margin-left: 10px;
+    vertical-align: baseline;
+}
+
+.image {
+    width: 58em;
+    height: 55em;
+}
+
+.footer {
+    margin-left: 150px;
+    height: 50px;
+}
+
+.footer__link {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25em;
+    font-weight: 300;
+    color: #5222D0;
+    padding-left: 50px;
+}

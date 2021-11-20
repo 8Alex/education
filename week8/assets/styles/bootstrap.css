@@ -1,0 +1,27 @@
+.box {
+    background-color: #318CE7;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.gallery {
+    height: 210px;
+    padding-top: 70px;
+}
+
+.minicontainer {
+    padding-right: 0px;
+}
+
+.title {
+    height: 50px;
+    padding-top: 10px;
+}
+
+.buy {
+    height: 150px;
+    padding-top: 50px;
+}
