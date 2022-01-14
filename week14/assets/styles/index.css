@@ -1,0 +1,16 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section_inner {
+    border: 1px solid purple;
+    padding: 20px;
+    margin: 20px;
+}
+
+.selected {
+    background-color: #9457EB;
+    color: white;
+}
