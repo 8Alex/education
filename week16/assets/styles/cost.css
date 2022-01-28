@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-image: url(../images/car.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.title {
+    text-align: center;
+}
+
+.container_inner {
+    padding: 20px;
+}
+
+.button {
+    margin: 10px 20px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+#total {
+    color: red;
+}

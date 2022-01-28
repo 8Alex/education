@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/cost.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="title">Калькулятор оценки стоимости автомобиля</h1>
+        <form class="container">
+            <div class="container_inner">
+                <label for="brand">Марка:</label>
+                <select id="brand">
+                    <option disabled selected value>Выбрать</option>
+                    <option value="3200">BMW</option>
+                    <option value="3100">Audi</option>
+                    <option value="2300">Mini</option>
+                    <option value="1400">Skoda</option>
+                </select>
+            </div>
+
+            <div class="container_inner">
+                <label for="year">Год выпуска:</label>
+                <select id="year">
+                    <option disabled selected value>Выбрать</option>
+                    <option value="50">2015</option>
+                    <option value="100">2016</option>
+                    <option value="200">2017</option>
+                    <option value="300">2018</option>
+                    <option value="400">2019</option>
+                    <option value="500">2020</option>
+                    <option value="550">2021</option>
+                </select>
+            </div>
+
+            <div class="container_inner">
+                <label>Тип топлива:</label>
+                <input id="gasoline" type="radio" name="fuel" value="80">
+                <label for="gasoline">Бензин</label>
+                <input id="diesel" type="radio" name="fuel" value="100">
+                <label for="diesel">Дизельное топливо</label>
+            </div>
+
+            <div class="container_inner">
+                <label>Коробка передач:</label>
+                <input type="radio" id="manual" name="transmission" value="50">
+                <label for="manual">Механическая коробка передач</label>
+                <input type="radio" id="automatic" name="transmission" value="100">
+                <label for="automatic">Автоматическая коробка передач</label>
+            </div>
+
+            <div class="container_inner">
+                <label>Привод:</label>
+                <input id="rear" type="radio" name="drive" value="120">
+                <label for="rear">Задний</label>
+                <input id="front-wheel" type="radio" name="drive" value="100">
+                <label for="front-wheel">Передний</label>
+                <input id="four-wheel" type="radio" name="drive" value="200">
+                <label for="four-wheel">Полный</label>
+            </div>
+
+            <div class="container_inner">
+                <label>Дополнительно:</label>
+                <input type="checkbox" id="heating" name="additional" value="100">
+                <label for="heating">Подогрев стекла</label>
+                <input type="checkbox" id="wheel" name="additional" value="200">
+                <label for="wheel">Спортивный руль</label>
+                <input type="checkbox" id="camera" name="additional" value="300">
+                <label for="camera">Камера заднего вида</label>
+            </div>
+            <div>
+                <button type="button" class="button">Рассчитать</button>
+                <div id="total"></div>
+            </div>
+
+        </form>
+
+
+
+    </div>
+    <script src="cost.js"></script>
+</body>
+
+</html>
