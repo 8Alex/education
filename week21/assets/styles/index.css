@@ -1,0 +1,9 @@
+.containerGif {
+    margin-top: 20px;
+}
+
+.containerGif img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
