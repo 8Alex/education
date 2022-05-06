@@ -1,0 +1,79 @@
+.cardContainer {
+  width: 10%;
+  color: white;
+  margin-top: 15px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.cardContainer:hover {
+  cursor: pointer;
+}
+
+.cardRate {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.cardPrice {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.cardMegabit {
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.cardInfo {
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.cardPrice__fontSize {
+  font-size: 40px;
+  padding: 8px;
+}
+
+.cardPrice__rub {
+  margin-bottom: 20px;
+}
+
+.cardPrice__month {
+  margin-top: 20px;
+}
+
+.colorBlue {
+  background-color: blue;
+}
+
+.colorGreen {
+  background-color: green;
+}
+
+.colorRed {
+  background-color: red;
+}
+
+.colorGrey {
+  background-color: gray;
+}
+
+.cardFooter {
+  background-color: #a0a0a046;
+  color: black;
+}
+.selectedСard {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
